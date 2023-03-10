@@ -73,6 +73,7 @@ int counter(int arr[], const int l, int num) {
 	return counter;
 }
 
+// К сожалению, не реализовал защиту от "классного пользователя"
 int main() {
 	setlocale(LC_ALL, "Russian");
 
